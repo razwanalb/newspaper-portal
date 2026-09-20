@@ -1,0 +1,6 @@
+{
+  "name": "The Soledad Times",
+  "description": "A high-performance newspaper and magazine portal featuring responsive multi-column layouts, breaking news grids, dynamic ad widgets, newsletter integration, and user analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

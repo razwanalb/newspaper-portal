@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-masthead: "UnifrakturCook", "UnifrakturMaguntia", "Cinzel", Georgia, serif;
+  --font-serif: "Newsreader", "Lora", Georgia, Cambria, serif;
+  --font-sans: "Work Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@layer utilities {
+  .font-masthead {
+    font-family: var(--font-masthead);
+  }
+  .font-serif-headline {
+    font-family: var(--font-serif);
+  }
+  .font-sans-body {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom newspaper styling */
+.newspaper-divider {
+  border-bottom: 1px solid currentColor;
+}
+
+.newspaper-double-divider {
+  border-top: 3px double currentColor;
+}
+
+/* Dark mode transitions */
+html.dark {
+  color-scheme: dark;
+}
+
