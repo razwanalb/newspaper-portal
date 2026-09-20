@@ -118,7 +118,7 @@ To update or replace any article image:
    {
      id: 'my-story-id',
      title: 'Your Headline Here',
-     imageUrl: 'https://example.com/your-image.jpg', // or local path: '/images/photo.jpg'
+     imageUrl: '[https://example.com/your-image.jpg](https://i.ibb.co.com/VYprs8yg/Screenshot-2026-09-20-124307.png)', // or local path: '/images/photo.jpg'
      // ...
    }
    ```
