@@ -2,6 +2,10 @@
 
 A modern, responsive online newspaper and digital magazine web application inspired by the classic **Soledad Times Magazine** editorial design. Built for high performance, accessibility, and reading comfort across desktop, tablet, and mobile devices.
 
+<p align="center">
+  <img src="https://i.ibb.co.com/VYprs8yg/Screenshot-2026-09-20-124307.png" alt="The Soledad Times Home Page Preview" width="100%" />
+</p>
+
 ---
 
 ## 📰 Overview
@@ -118,7 +122,7 @@ To update or replace any article image:
    {
      id: 'my-story-id',
      title: 'Your Headline Here',
-     imageUrl: '[https://example.com/your-image.jpg](https://i.ibb.co.com/VYprs8yg/Screenshot-2026-09-20-124307.png)', // or local path: '/images/photo.jpg'
+     imageUrl: 'https://example.com/your-image.jpg', // or local path: '/images/photo.jpg'
      // ...
    }
    ```
